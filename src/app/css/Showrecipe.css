@@ -1,0 +1,30 @@
+.show-recipe{
+    height: auto;
+    width: 100%;
+    display: grid;
+    position: relative;
+    top: 15px;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    /* background-color: antiquewhite; */
+}
+.card-recipe{
+    width: 350px;
+    height: 300px;
+    background-color: #1d1d1b;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.catogry-food{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.food-name{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}

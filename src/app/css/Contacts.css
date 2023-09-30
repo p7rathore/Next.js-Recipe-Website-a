@@ -1,0 +1,298 @@
+.contact-cointener {
+  width: 100%;
+  height: 665px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-items {
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 0px 5px 3px rgb(229, 229, 229);
+}
+
+.items {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-items {
+  width: 400px;
+  height: 500px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.First-name,
+.Last-name,
+.email,
+.message {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: 0;
+  font-size: 20px;
+  border-bottom: 2px solid #1d1d1b;
+  background-color: transparent;
+  text-align: center;
+}
+.submite {
+  width: 300px;
+  height: 50px;
+  border: none;
+  background-color: #1d1d1b;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.images {
+  width: 500px;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.contact-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/* ..................... Media Qury .................. */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact-items {
+    width: 350px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .images {
+    display: none;
+    height: 600px;
+  }
+  .First-name,
+  .Last-name,
+  .email,
+  .message {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: 0;
+    font-size: 18px;
+    border-bottom: 2px solid #1d1d1b;
+    background-color: transparent;
+    text-align: center;
+  }
+  .all-items {
+    width: 300px;
+  }
+  .submite {
+    width: 200px;
+  }
+  .items {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .contact-items {
+    width: 350px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .images {
+    display: none;
+  }
+  .First-name,
+  .Last-name,
+  .email,
+  .message {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: 0;
+    font-size: 18px;
+    border-bottom: 2px solid #1d1d1b;
+    background-color: transparent;
+    text-align: center;
+  }
+  .all-items {
+    width: 300px;
+  }
+  .submite {
+    width: 200px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .contact-items {
+    width: 750px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .images {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: block;
+  }
+  .First-name,
+  .Last-name,
+  .email,
+  .message {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: 0;
+    font-size: 18px;
+    border-bottom: 2px solid #1d1d1b;
+    background-color: transparent;
+    text-align: center;
+  }
+  .all-items {
+    width: 300px;
+  }
+  .submite {
+    width: 200px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .contact-items {
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 0px 5px 3px rgb(229, 229, 229);
+  }
+
+  .items {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .all-items {
+    width: 400px;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .First-name,
+  .Last-name,
+  .email,
+  .message {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: 0;
+    font-size: 20px;
+    border-bottom: 2px solid #1d1d1b;
+    background-color: transparent;
+    text-align: center;
+  }
+  .submite {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #1d1d1b;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .images {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .contact-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .contact-items {
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 0px 5px 3px rgb(229, 229, 229);
+  }
+
+  .items {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .all-items {
+    width: 400px;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .First-name,
+  .Last-name,
+  .email,
+  .message {
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: 0;
+    font-size: 20px;
+    border-bottom: 2px solid #1d1d1b;
+    background-color: transparent;
+    text-align: center;
+  }
+  .submite {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #1d1d1b;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .images {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .contact-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
